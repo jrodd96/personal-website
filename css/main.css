@@ -16,6 +16,8 @@ footer .row {
 }
 
 header h1 {
+  font-family: 'Helvetica', sans-serif;
+  color: #000066;
   font-weight: 700;
   margin 0;
 }
@@ -28,7 +30,7 @@ header nav {
 header p {
   padding: 0 20px;
   margin 0;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .jumbotron {
