@@ -30,7 +30,7 @@ header nav {
 header p {
   padding: 0 20px;
   margin 0;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .jumbotron {
@@ -67,14 +67,14 @@ section .row img {
 .btn.btn-primary {
   border-radius: 2px;
   border: 0px;
-  color: #fbd1d5;
+  color: #000066;
   text-shadow: none;
   background-color: #ffffff;
 }
 
 .btn.btn-primary:hover {
   color: #ffffff;
-  background-color: #000000;
+  background-color: #4d4dff;
 }
 
 .btn-secondary {
