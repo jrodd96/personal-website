@@ -83,7 +83,7 @@ section .row img {
 
 footer {
   font-size: 18px;
-  
+  padding: 20px 0;
   background-color: #bfbfbf;
   background-size: cover;
 }
