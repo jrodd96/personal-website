@@ -1,5 +1,6 @@
 body {
    font-family: 'Georgia', sans-serif;
+   color: #ffffff;
    height: 100%;
    margin: 0;
    text-align: left;
@@ -11,10 +12,11 @@ body {
 h1 {
    font-size: 32px;
    font-family: 'Helvetica', sans-serif;
+   color: #ffffff;
 }
 
 h2 {
-   color: #000000;
+   color: #ffffff;
    font-size: 24px;
 }
 
@@ -43,8 +45,8 @@ p {
 
 
 .hero a {
-   color: #00FFAA;
-   font-size: 24px;
+   color: #ffffff;
+   font-size: 16px;
    text-decoration: none;
 }
 
