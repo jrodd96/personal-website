@@ -6,6 +6,7 @@ body {
    text-align: left;
    width: 100%;
    background-image: url("img/purple.jpg");
+   background-position: center top;
    background-size: cover;
 }
 
@@ -51,6 +52,8 @@ p {
 }
 
 #footer {
-   background-color: DarkSlateGray;
+   background-color: #d9d9d9;
+   padding: 10px;
    font-size: 16px;
+   color: #000066;
 }
