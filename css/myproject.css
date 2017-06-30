@@ -1,52 +1,79 @@
 body {
-   font-family: Georgia, serif;
-   height: 100%;
-   margin: 0;
-   text-align: left;
-   width: 100%;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 300;
    background-image:
      url("css/img/");
-   background-position: center top;
    background-size: cover;
 }
 
-h1 {
-   font-size: 32px;
-   font-family: 'Helvetica', sans-serif;
-   color: #000066;
-}
-
-h2 {
-   color: #000066;
-   font-size: 20px;
-}
-
-h3 {
-   color: #000066;
-   font-size: 18px;
-
-
-.hero {
+header {
    padding: 20px 0;
+}
+
+header .row,
+footer .row {
+   display: flex;
+   align-items: center;
+}
+
+header h1 {
+   font-weight: 700;
    margin: 0;
-   font-family: 'Courier New', sans-serif;
 }
 
-
-p {
-   color: #000066;
-   font-size: 2em;
+header nav {
+   display: flex;
+   justify-content: flex-end;
 }
 
-
-.hero a {
-   font-size: 2em;
-   text-decoration: none;
-}
-
-#footer {
-   color: #000066;
-   background-color: #d9d9d9
+header p {
+   padding: 0 20px;
+   margin: 0;
    font-size: 16px;
-   padding: 10px;
+}
+
+.jumbotron {
+   display: flex;
+   align-items: center;
+   color: #000066;
+   height: 200px;
+   font-family: 'Courier New', sans-serif;
+   text-shadow: 0.25px 0.25px 0.25px #ffffff;
+}
+
+.jumbotron h2 {
+   font-size: 56px;
+   font-weight: 700;
+   margin: 0;
+   color: #000;
+}
+
+.jumbotron h3 {
+  margin: 0 0 20px;
+  color: #000;
+}
+
+section .row img {
+  margin: 0 0 30px;
+  width: 100%;
+}
+
+.col-md-6 {
+  margin: 0 0 30px;
+}
+
+footer {
+  font-size: 14px;
+  padding: 20px 0;
+  color: #000066;
+  background-color: #d9d9d9
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
 }
