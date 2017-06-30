@@ -54,7 +54,7 @@ header p {
 }
 
 .jumbotron h3 {
-  margin: 0 0 20px;
+  margin: 0 0 10px;
   color: #000;
   font-size: 18px;
 }
@@ -67,15 +67,14 @@ section .row {
 }
 
 .col-md-6 {
-  margin: 0 0 30px;
-  padding: 50px;
+  margin: 0 0 50px;
   line-height: 200%
   font-size: 18px;
 }
 
 #footer {
    color: DarkSlateGray;
-   padding: 30px;
+   margin: 30px;
    font-size: 18px;
    background-color: #d4d6d8;
    text-align: center;
