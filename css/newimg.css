@@ -5,8 +5,8 @@ body {
    margin: 0;
    text-align: left;
    width: 100%;
-   background-image: url("img/purple.jpg");
-   background-size: 100% auto;
+   background-image: url("css/img/layout-background.jpg");
+   background-size: cover;
 }
 
 h1 {
