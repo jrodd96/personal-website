@@ -15,8 +15,26 @@ rel='stylesheet' type='text/css'>
       <div class="row">
         <h1 class="col-sm-8">My Projects Page</h1>
         <nav class="col-sm-4">
-          <p>Resources</p>
-          <p>Tools</p>
+          <div class="dropdown">
+            <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Resources
+              <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dLabel">
+              <li>C++ Example Code</li>
+              <li>Other Example Code</li>
+            </ul>
+         </div>
+         <div class="dropdown">
+            <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Tools
+              <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dLabel">
+              <li>C++ Order Precedence Chart</li>
+              <li>Other</li>
+            </ul>
+         </div>
         </nav>
       </div>
     </header>
