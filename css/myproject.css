@@ -35,7 +35,7 @@ header p {
 .jumbotron {
    display: flex;
    align-items: center;
-   max-height: 200px;
+   height: 70%;
    font-family: 'Courier New', sans-serif;
    text-shadow: 0.25px 0.25px 0.25px #000000;
 }
