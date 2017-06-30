@@ -5,7 +5,7 @@ body {
    text-align: left;
    width: 100%;
    background-image:
-  url("img/6873557-silver-background.jpg");
+  url('img/6873557-silver-background.jpg');
    background-size: cover;
    background-color: #979899;
 }
