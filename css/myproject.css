@@ -62,18 +62,9 @@ section .row img {
   margin: 0 0 30px;
 }
 
-footer {
-  font-size: 14px;
-  padding: 20px 0;
-  color: #000066;
-  background-color: #d9d9d9
-}
-
-footer .col-sm-8 {
-  display: flex;
-  justify-content: flex-end;
-}
-
-footer ul {
-  list-style: none;
+#footer {
+   color: DarkSlateGray;
+   padding: 20px;
+   font-size: 18px;
+   background-color: #d4d6d8;
 }
