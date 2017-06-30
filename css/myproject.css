@@ -60,8 +60,8 @@ section .row {
 
 .col-md-6 {
   margin: 0 0 30px;
-  padding: 20px;
-  height: 300px;
+  padding: 30px;
+  line-height: 200%
 }
 
 .footer {
