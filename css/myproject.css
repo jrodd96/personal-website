@@ -4,42 +4,49 @@ body {
    margin: 0;
    text-align: left;
    width: 100%;
+   background-image:
+     url("css/img/");
+   background-position: center top;
+   background-size: cover;
 }
 
 h1 {
    font-size: 32px;
+   font-family: 'Helvetica', sans-serif;
+   color: #000066;
 }
 
 h2 {
-   color: #ffffff;
-   font-size: 56px;
+   color: #000066;
+   font-size: 20px;
 }
+
+h3 {
+   color: #000066;
+   font-size: 18px;
 
 
 .hero {
-   background-image:
-  url("img/clipart/wallpaper3.jpg");
-   background-position: center top;
-   background-size: cover;
-   padding: 250px 0;
+   padding: 20px 0;
    margin: 0;
-   font-family: 'Trebuchet MS', 'Helvetica';
+   font-family: 'Courier New', sans-serif;
 }
 
 
 p {
-   color: #ffffff;
+   color: #000066;
    font-size: 2em;
 }
 
 
 .hero a {
-   color: #00FFAA;
-   font-size: 24px;
+   font-size: 2em;
    text-decoration: none;
 }
 
 #footer {
-   color: DarkSlateGray;
+   color: #000066;
+   background-color: #d9d9d9
    font-size: 16px;
+   padding: 10px;
 }
