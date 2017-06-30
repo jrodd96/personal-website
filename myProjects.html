@@ -3,8 +3,8 @@
     
     <title>My Projects</title>
     
-    <script src="content/js/jquery.min.js"></script>
-    <script src="content/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' 
 rel='stylesheet' type='text/css'>
   <link rel="stylesheet" type="text/css" href="css/main.css">
@@ -18,28 +18,23 @@ rel='stylesheet' type='text/css'>
         <h1 class="col-sm-8">My Projects Page</h1>
         <nav class="col-sm-4">
           <div class="dropdown">
-            <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <button class="btn btn-primary dropdown-toggle" id="resourceLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Resources
               <span class="caret"></span>
             </button>
-            <script>
-              $(document).ready(function () {
-              $('.dropdown-toggle').dropdown();
-              });
-            <ul class="dropdown-menu" aria-labelledby="dLabel">
-              <li><p>C++ Example Code</p></li>
-              <li><p>Other Example Code</p></li>
+            <ul class="dropdown-menu" role="menu" aria-labelledby="resourceLabel">
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">C++ Example Code</a></li>
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Other Code</a></li>
             </ul>
-            </script>
-         </div>
-         <div class="dropdown">
-            <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          </div>
+          <div class="dropdown">
+            <button class="btn btn-primary dropdown-toggle" id="toolLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Tools
               <span class="caret"></span>
             </button>
-            <ul class="dropdown-menu" aria-labelledby="dLabel">
-              <li><p>C++ Order Precedence Chart</p></li>
-              <li><p>Other</p></li>
+            <ul class="dropdown-menu" role="menu" aria-labelledby="toolLabel">
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Order Precedence Chart</a></li>
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Other</a></li>
             </ul>
          </div>
         </nav>
