@@ -2,7 +2,7 @@ body {
    font-family: 'Roboto', sans-serif;
    font-weight: 300;
    background-image:
-     url("css/img/lightblue.jpg");
+     url("img/lightblue.jpg");
    background-size: cover;
 }
 
@@ -63,7 +63,7 @@ section .row {
   margin: 0 0 30px;
 }
 
-#footer {
+.footer {
    color: DarkSlateGray;
    padding: 20px;
    font-size: 18px;
