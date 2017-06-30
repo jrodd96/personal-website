@@ -5,8 +5,9 @@ body {
    text-align: left;
    width: 100%;
    background-image:
-  url("http://cdn.wallpapersafari.com/81/92/C6WN7X.jpg");
+  url("css/img/6873557-silver-background.jpg");
    background-size: cover;
+   background-color: #979899;
 }
 
 h1 {
