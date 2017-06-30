@@ -2,7 +2,7 @@ body {
    font-family: 'Roboto', sans-serif;
    font-weight: 300;
    background-image:
-     url("img/lightblue.jpg");
+     url('img/lightblue.jpg');
    background-size: cover;
 }
 
@@ -37,7 +37,7 @@ header p {
    max-height: 200px;
    font-family: 'Courier New', sans-serif;
    text-shadow: 0.25px 0.25px 0.25px #000000;
-   background-image: url("img/binary.jpg");
+   background-image: url('img/binary.jpg');
 }
 
 .jumbotron h2 {
