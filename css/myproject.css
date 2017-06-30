@@ -35,10 +35,9 @@ header p {
 .jumbotron {
    display: flex;
    align-items: center;
-   color: #000066;
-   height: 200px;
+   max-height: 200px;
    font-family: 'Courier New', sans-serif;
-   text-shadow: 0.25px 0.25px 0.25px #ffffff;
+   text-shadow: 0.25px 0.25px 0.25px #000000;
 }
 
 .jumbotron h2 {
@@ -56,6 +55,7 @@ header p {
 section .row img {
   margin: 0 0 30px;
   width: 100%;
+  font-size: 18px;
 }
 
 .col-md-6 {
