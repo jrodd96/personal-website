@@ -4,6 +4,9 @@ body {
    margin: 0;
    text-align: left;
    width: 100%;
+   background-image:
+  url("css/img/silver.jpg");
+   background-size: cover;
 }
 
 h1 {
@@ -11,17 +14,13 @@ h1 {
 }
 
 h2 {
-   color: #ffffff;
+   color: #000066;
    font-size: 56px;
 }
 
 
 .hero {
-   background-image:
-  url("img/clipart/silver.jpg");
-   background-position: center top;
-   background-size: cover;
-   padding: 250px 0;
+   padding: 20px 0;
    margin: 0;
    font-family: 'Trebuchet MS', 'Helvetica';
 }
@@ -41,5 +40,7 @@ p {
 
 #footer {
    color: DarkSlateGray;
-   font-size: 16px;
+   padding: 20px;
+   font-size: 18px;
+   background-color: #d4d6d8;
 }
