@@ -3,6 +3,8 @@
     
     <title>My Projects</title>
     
+    <script src="content/js/jquery.min.js"></script>
+    <script src="content/js/bootstrap.min.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' 
 rel='stylesheet' type='text/css'>
   <link rel="stylesheet" type="text/css" href="css/main.css">
@@ -20,17 +22,15 @@ rel='stylesheet' type='text/css'>
               Resources
               <span class="caret"></span>
             </button>
-            <script src="content/js/jquery.min.js"></script>
-            <script src="content/js/bootstrap.min.js"></script>
             <script>
               $(document).ready(function () {
               $('.dropdown-toggle').dropdown();
               });
-            </script>
             <ul class="dropdown-menu" aria-labelledby="dLabel">
-              <p>C++ Example Code</p>
-              <p>Other Example Code</p>
+              <li><p>C++ Example Code</p></li>
+              <li><p>Other Example Code</p></li>
             </ul>
+            </script>
          </div>
          <div class="dropdown">
             <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
