@@ -52,10 +52,11 @@ header p {
   color: #000;
 }
 
-section .row img {
+section .row {
   margin: 0 0 30px;
   width: 100%;
   font-size: 18px;
+  padding: 20px;
 }
 
 .col-md-6 {
