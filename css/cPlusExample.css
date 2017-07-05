@@ -1,5 +1,4 @@
 body {
-   font-family: Courier New, monospace;
    height: 100%;
    margin: 0;
    text-align: left;
@@ -11,22 +10,24 @@ body {
 
 h1 {
    font-size: 32px;
-   color: #000066;
+   color: #ffffff;
    font-family: Helvetica, sans-serif;
 }
 
 h2 {
-   color: #000066;
+   color: #ffffff;
+   font-family: Helvetica, sans-serif;
    font-size: 24px;
 }
 
 .example {
    padding: 20px 0;
    margin: 0;
+   font-family: Courier New, monospace;
 }
 
 p {
-   color: #000066;
+   color: #ffffff;
    font-size: 2em;
 }
 
