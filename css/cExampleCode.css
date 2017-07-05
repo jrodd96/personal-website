@@ -1,0 +1,43 @@
+body {
+   font-family: Courier New, monospace;
+   height: 100%;
+   margin: 0;
+   text-align: left;
+   width: 100%;
+   background-image:
+  url('img/156.jpg');
+   background-size: cover;
+}
+
+h1 {
+   font-size: 32px;
+   color: #000066;
+   font-family: Helvetica, sans-serif;
+}
+
+h2 {
+   color: #000066;
+   font-size: 24px;
+}
+
+.example {
+   padding: 20px 0;
+   margin: 0;
+}
+
+p {
+   color: #000066;
+   font-size: 2em;
+}
+
+.example a {
+   font-size: 18px;
+   text-decoration: none;
+}
+
+#footer {
+   color: DarkSlateGray;
+   padding: 20px;
+   font-size: 18px;
+   background-color: #d4d6d8;
+}
