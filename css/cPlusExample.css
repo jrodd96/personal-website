@@ -9,7 +9,7 @@ body {
 }
 
 h1 {
-   font-size: 32px;
+   font-size: 35px;
    color: #ffffff;
    font-family: Helvetica, sans-serif;
 }
@@ -17,7 +17,8 @@ h1 {
 h2 {
    color: #ffffff;
    font-family: Helvetica, sans-serif;
-   font-size: 18px;
+   font-size: 20px;
+   text-decoration: underline;
 }
 
 .example {
