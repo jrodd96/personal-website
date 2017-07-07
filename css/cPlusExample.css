@@ -17,8 +17,8 @@ h1 {
 h2 {
    color: #ffffff;
    font-family: Helvetica, sans-serif;
-   font-size: 20px;
-   text-decoration: underline;
+   font-size: 24px;
+   text-indent: 10px;
 }
 
 .example {
@@ -29,8 +29,10 @@ h2 {
 }
 
 p {
-   color: #ffffff;
-   font-size: 2em;
+   color: #87cefa;
+   font-size: 20px;
+   text-decoration: bold;
+   text-indent: 5px;
 }
 
 .example a {
