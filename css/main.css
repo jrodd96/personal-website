@@ -70,11 +70,13 @@ section .row img {
   color: #000066;
   text-shadow: none;
   background-color: #ffffff;
+  opacity: 0.5;
 }
 
 .btn.btn-primary:hover {
   color: #ffffff;
   background-color: #4d4dff;
+  opacity: 1;
 }
 
 .btn-secondary {
