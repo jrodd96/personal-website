@@ -55,8 +55,13 @@ p {
 }
 
 #footer {
+   height: 50px;
+
+#footer-content {
    color: DarkSlateGray;
-   padding: 20px;
+   height: 32px;
+   padding: 8px;
    font-size: 18px;
    background-color: #d4d6d8;
+   border: 1px solid #ab47bc;
 }
