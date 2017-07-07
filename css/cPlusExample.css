@@ -26,6 +26,13 @@ h3 {
    font-family: 'Helvetica', sans-serif;
    font-size: 24px;
    text-align: center;
+   text-decoration: none;
+}
+
+h3 a {
+   color: #fff;
+   text-decoration: none;
+}
 
 .example {
    padding: 20px 0;
