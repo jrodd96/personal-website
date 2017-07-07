@@ -1,7 +1,6 @@
 body {
    height: 100%;
    margin: 0;
-   text-align: left;
    width: 100%;
    background-image:
   url('img/156.jpg');
@@ -30,7 +29,7 @@ h2 {
 
 #wrap.example {
    width: 100%;
-   margin: 0;
+   margin: 0 auto -50px;
 }
 #left_col {
    float: left;
