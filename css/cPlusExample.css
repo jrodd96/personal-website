@@ -35,12 +35,14 @@ h2 {
 #left_col {
    float: left;
    width: 50%;
-   text-align: center;
+   text-align: left;
+   text-indent: 10px;
 }
 #right_col {
    float: right;
    width: 50%;
-   text-align: center;
+   text-align: left;
+   text-indent: 10px;
 }
 
 p {
