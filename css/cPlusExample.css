@@ -29,17 +29,17 @@ h2 {
 }
 
 #wrap.example {
-   width: 600px;
+   width: 100%;
    margin: 0;
 }
 #left_col {
    float: left;
-   width: 300px;
+   width: 50%;
    text-align: center;
 }
 #right_col {
    float: right;
-   width: 300px;
+   width: 50%;
    text-align: center;
 }
 
