@@ -60,11 +60,13 @@ p {
 
 #footer {
    height: 50px;
+   width: 100%;
    position: absolute;
 }
 
 #footer-content {
    color: DarkSlateGray;
+   text-align: center;
    height: 32px;
    padding: 8px;
    font-size: 18px;
