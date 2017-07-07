@@ -60,7 +60,7 @@ p {
 
 #footer {
    height: 50px;
-   position: fixed;
+   position: absolute;
 }
 
 #footer-content {
