@@ -19,6 +19,7 @@ h1 {
 h2 {
    color: #ffffff;
    font-size: 24px;
+   text-indent: 10px;
 }
 
 
@@ -31,7 +32,7 @@ h2 {
 .img-circle {
    border-radius: 80%;
    padding: 1px;
-   border: 1px solid #021a40;
+   border: 1px solid #fff;
 }
 
 .img {
@@ -42,6 +43,7 @@ h2 {
 p {
    color: #ffffff;
    font-size: 2em;
+   text-indent: 10px;
 }
 
 
@@ -53,7 +55,8 @@ p {
 
 #footer {
    background-color: #d9d9d9;
-   padding: 10px;
-   font-size: 16px;
+   padding: 30px;
+   font-size: 18px;
    color: #000066;
+   height: 50px;
 }
