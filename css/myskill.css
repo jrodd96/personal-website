@@ -7,6 +7,8 @@ body {
    background-image:
   url('img/6873557-silver-background.jpg');
    background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
    background-color: #979899;
 }
 
