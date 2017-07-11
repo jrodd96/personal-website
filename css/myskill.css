@@ -19,6 +19,7 @@ h1 {
 h2 {
    color: #000066;
    font-size: 24px;
+   text-indent: 10px;
 }
 
 
@@ -26,6 +27,7 @@ h2 {
    padding: 20px 0;
    margin: 0;
    font-family: 'Trebuchet MS', 'Helvetica';
+   padding-bottom: 80px;
 }
 
 
@@ -40,9 +42,21 @@ p {
    text-decoration: none;
 }
 
-#footer {
+#wrap {
+   min-height: 100%;
+}
+
+.footer {
    color: DarkSlateGray;
    padding: 20px;
    font-size: 18px;
    background-color: #d4d6d8;
+   text-align: center;
+   height: 80px;
+   width: 100%;
+   padding-top: 40px;
+   padding-bottom: 40px;
+   position: relative;
+   margin-top: -80px;
+   clear: both;
 }
