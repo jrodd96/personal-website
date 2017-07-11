@@ -1,5 +1,5 @@
 html { 
-  background: url(img/lightblue.jpg) no-repeat center center fixed; 
+  background: url(img/6873557-silver-background.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -17,7 +17,7 @@ body {
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat; */
-   background-color: #979899;
+   background-color: none;
 }
 
 h1 {
