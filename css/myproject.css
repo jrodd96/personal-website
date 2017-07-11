@@ -78,6 +78,7 @@ footer {
    background-color: #d4d6d8;
    text-align: center;
    height: 50px;
+   width: 100%;
    padding: 20px;
    position: absolute;
 }
