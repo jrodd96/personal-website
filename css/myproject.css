@@ -67,17 +67,18 @@ section .row {
 }
 
 .col-md-6 {
-  margin: 0 0 50px;
-  font-size: 22px;
+   margin: 0 0 50px;
+   padding-bottom: 60px;
+   font-size: 20px;
 }
 
-footer {
+#footer {
    color: DarkSlateGray;
    margin: 30px;
    font-size: 18px;
    background-color: #d4d6d8;
    text-align: center;
-   height: 50px;
+   height: 60px;
    width: 100%;
    padding: 20px;
    position: absolute;
@@ -86,4 +87,8 @@ footer {
 li {
    line-height: 2em;
    font-size: 20px;
+}
+
+.container {
+   min-height: 100%;
 }
