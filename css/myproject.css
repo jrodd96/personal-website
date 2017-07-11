@@ -42,7 +42,7 @@ header p {
    display: flex;
    align-items: center;
    max-height: 200px;
-   font-family: 'Courier New', sans-serif;
+   font-family: 'Helvetica', sans-serif;
    text-shadow: 0.25px 0.25px 0.25px #000000;
    background-image: url('img/binary.jpg');
 }
