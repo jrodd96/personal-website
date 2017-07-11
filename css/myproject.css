@@ -26,6 +26,8 @@ header .row {
 header h1 {
    font-weight: 700;
    margin: 0;
+   font-family: 'Roboto', sans-serif;
+   color: #000066;
 }
 
 header nav {
@@ -36,7 +38,8 @@ header nav {
 header p {
    padding: 0 20px;
    margin: 0;
-   font-size: 18px;
+   font-size: 20px;
+   color: #000066;
 }
 
 .jumbotron {
