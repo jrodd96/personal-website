@@ -1,14 +1,22 @@
+html { 
+  background: url(img/lightblue.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 body {
    font-family: Georgia, serif;
    height: 100%;
    margin: 0;
    text-align: left;
    width: 100%;
-   background-image:
+   /*background-image:
   url('img/6873557-silver-background.jpg');
    background-size: cover;
    background-position: center;
-   background-repeat: no-repeat;
+   background-repeat: no-repeat; */
    background-color: #979899;
 }
 
