@@ -4,6 +4,7 @@ body {
    background-image:
      url('img/lightblue.jpg');
    background-size: cover;
+   width: 100%;
 }
 
 button {
@@ -70,6 +71,11 @@ section .row {
    margin: 0 0 50px;
    padding-bottom: 60px;
    font-size: 20px;
+}
+
+.col-md-6 a {
+   text-decoration: none;
+   color: #000066;
 }
 
 #footer {
