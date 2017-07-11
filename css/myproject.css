@@ -9,12 +9,12 @@ html {
 body {
    font-family: 'Roboto', sans-serif;
    font-weight: 300;
-  /* background-image:
+   background-image:
      url('img/lightblue.jpg');
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
-   width: 100%;*/
+   width: 100%;
 }
 
 button {
