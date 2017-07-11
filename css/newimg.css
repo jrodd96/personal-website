@@ -46,6 +46,9 @@ p {
    text-indent: 10px;
 }
 
+li {
+   padding:1em 0;
+}
 
 .hero a {
    color: #ffffff;
