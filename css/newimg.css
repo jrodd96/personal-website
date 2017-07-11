@@ -55,8 +55,9 @@ p {
 
 #footer {
    background-color: #d9d9d9;
-   padding: 30px;
-   font-size: 18px;
+   padding-bottom: 20px;
+   padding-top: 30px;
+   font-size: 20px;
    color: #000066;
    height: 50px;
 }
