@@ -1,10 +1,16 @@
+html { 
+  background: url('img/156.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 body {
    height: 100%;
    margin: 0;
    width: 100%;
-   background-image:
-  url('img/156.jpg');
-   background-size: cover;
+   background-color: none;
 }
 
 h1 {
@@ -42,9 +48,9 @@ h3 a {
 }
 
 #wrap {
-   width: 100%;
-   margin: 0;
+   min-height:100%;
 }
+
 #left_col {
    float: left;
    width: 50%;
@@ -71,7 +77,7 @@ p {
    font-size: 18px;
 }
 
-#footer {
+.footer {
    height: 50px;
    width: 100%;
 }
@@ -80,7 +86,6 @@ p {
    color: DarkSlateGray;
    text-align: center;
    height: 32px;
-   width: 100%;
    padding: 8px;
    font-size: 18px;
    background-color: #d4d6d8;
