@@ -57,6 +57,10 @@ header p {
    color: #000066;
 }
 
+header li {
+  font-size: 16px;
+}
+
 .jumbotron {
    display: flex;
    align-items: center;
