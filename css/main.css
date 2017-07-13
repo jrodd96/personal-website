@@ -91,6 +91,7 @@ footer {
   background-color: #bfbfbf;
   background-size: cover;
   font-family: 'Roboto', sans-serif;
+  width: 100%;
 }
 
 footer .col-sm-8 {
