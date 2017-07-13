@@ -80,20 +80,14 @@ p {
 }
 
 .footer {
+   color: DarkSlateGray;
+   background-color: #d4d6d8;
+   text-align: center;
    height: 50px;
    width: 100%;
+   padding-top: 25px;
+   padding-bottom: 25px;
    position: relative;
    margin-top: -50px;
    clear: both;
-}
-
-#footer-content {
-   color: DarkSlateGray;
-   text-align: center;
-   height: 32px;
-   width: 100%;
-   padding: 8px;
-   font-size: 18px;
-   background-color: #d4d6d8;
-   border: 1px solid #ab47bc;
 }
