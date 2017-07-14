@@ -16,6 +16,24 @@ body {
    background-color: none;
 }
 
+#wrap {
+  min-height: 100%;
+}
+
+#left-col {
+  float: left;
+  width: 50%;
+  text-align: left;
+  text-indent: 30px;
+}
+
+#right-col {
+  float: right;
+  width: 50%;
+  text-align: left;
+  text-indent: 30px;
+}
+
 h1 {
    font-size: 32px;
    font-family: 'Helvetica', sans-serif;
@@ -63,11 +81,18 @@ li {
    text-decoration: none;
 }
 
-#footer {
-   background-color: #d9d9d9;
-   padding-bottom: 20px;
-   padding-top: 30px;
-   font-size: 20px;
-   color: #000066;
-   height: 50px;
+.footer {
+  background-color: #d9d9d9;
+  padding-bottom: 20px;
+  padding-top: 30px;
+  font-size: 20px;
+  color: #000066;
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  position: relative;
+  margin-top: -50px;
+  clear: both;
 }
