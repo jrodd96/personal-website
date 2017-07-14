@@ -58,6 +58,7 @@ body {
   -moz-border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
+  text-align: center;
 }
 
 .pull-me p {
