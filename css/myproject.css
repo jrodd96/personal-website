@@ -27,7 +27,7 @@ body {
 
 .panel {
   background: #a0f4f7;
-  background-size: 90% 90%;
+  background-size: 50% 50%;
   height: 300px;
   display: none;
   font-family: 'Helvetica', sans-serif;
@@ -48,7 +48,7 @@ body {
   position: relative;
   right: -25px;
   width: 150px;
-  height: 20px;
+  height: 100px;
   font-family: 'Arial', sans-serif;
   font-size: 14px;
   color: #ffffff;
