@@ -143,9 +143,25 @@ section .row {
    font-size: 20px;
 }
 
-a {
+/* unvisited link */
+
+a:link {
    text-decoration: none;
-   color: #00008B
+   color: #191970;
+}
+
+/* visited link */
+
+a:visited {
+   text-decoration: none;
+   color: #C71585;
+}
+
+/* mouse-over link */
+
+a:hover {
+   color: #1E90FF;
+   text-decoration: underline;
 }
 
 .footer {
