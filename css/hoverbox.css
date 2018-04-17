@@ -13,6 +13,26 @@ a
 	text-decoration: none;
 }
 
+header .row, {
+  display: flex;
+  align-items: center;
+}
+
+.col-sm-8 {
+  font-size: 40px;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header p {
+  padding: 0 20px;
+  margin 0;
+  font-size: 20px;
+}
+
 body
 {
 	background: #e6e6fa;
